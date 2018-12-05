@@ -5,6 +5,7 @@ A python program which downloads all the attachment from an email
 1. Enter the EMAIL-SERVER, EMAIL-ADDRESS, EMAIL-PASSWORD in line 200 and 201
 2. If you are using your gmail address set "Allow less secure apps: ON" here https://goo.gl/X2kgfH
 3. Execute the program
+* Attachments are saved in OS default temp directory (eg for Windows is %USERPROFILE%\AppData\Local\Temp)
 
 # Manual
 In the object named "my_email" at the bottom the possible values of the variables are;
@@ -13,7 +14,7 @@ EMAIL-SERVER (eg. imap.gmail.com)
 EMAIL-ADDRESS (eg. youmail@gmail.com)
 EMAIL-PASSWORD (your email password)
 inbox ( it can change to Sent, Trash etc)
-download_folder (The program will use the OS environment temp folder where the attachments will be saved. You can change it to  anything you want in quotes eg. m.save_attachment("c:\tmp") )
+download_folder (You can change it to  anything you want in quotes eg. m.save_attachment("c:\tmp") )
 
 filter="All" (It can set to UnSeen, Seen, All so the program fetches from unread, read or all emails)
 
