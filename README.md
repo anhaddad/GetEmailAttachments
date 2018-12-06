@@ -11,7 +11,7 @@ A python program which downloads all the attachment from an email
 In the object named "my_email" at the bottom the possible values of the variables are;
 
 * EMAIL-SERVER (eg. imap.gmail.com)
-* EMAIL-ADDRESS (eg. youmail@gmail.com)
+* EMAIL-ADDRESS (eg. yourmail@gmail.com)
 * EMAIL-PASSWORD (your email password)
 * inbox ( it can change to Sent, Trash etc)
 * download_folder (You can change it to  anything you want in quotes eg. m.save_attachment("c:\tmp") )
